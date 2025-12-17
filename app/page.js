@@ -4,6 +4,7 @@ import AvisClientCard from "./components/clients/AvisClientCard";
 import { testimonials } from "./data/testimonial";
 import { Star } from "lucide-react";
 import PopularCars from "./components/cars/PopularCars";
+import ProductCard from "./components/productcard";
 async function getPopularCars() {
   const res = await fetch("http://localhost:3000/api/cars/popular", {
     cache: "no-store",
